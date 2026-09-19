@@ -16,13 +16,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v7
-        name: Checkout using tag v2
-
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744
         name: checkout using sha for v3
 
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
-        name: checkout using sha for v3.5.0
+  
 
       
